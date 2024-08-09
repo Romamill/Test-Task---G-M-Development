@@ -4,26 +4,156 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>G&M Development</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <main>
-      <section>
-        <h1 hidden>Service</h1>
-        <ul>
-          <li>
-            <svg>
-              <use href="./images/icons.svg#icon-tap"></use>
-            </svg>
-            <h2>Plumbing</h2>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <a href="">Viev more</a>
-          </li>
-        </ul>
-      </section>
+      <div class="container">
+        <section>
+          <h1 hidden>Service</h1>
+          <ul class="service_list">
+            <li class="plumbing card firstbox">
+              <svg style="--svg-width: 64px; --svg-height: 70px;">
+                <use href="./images/icons.svg#icon-tap"></use>
+              </svg>
+
+              <h2>Plumbing</h2>
+              <div class="wrapper_p">
+                <p>Install / Replace a Toilet</p>
+                <p>Install / Replace a Faucet</p>
+                <p>Fix a Leaking</p>
+                <p>Install / Replace a Sink</p>
+                <p>Repair Under Sink Plumbing</p>
+              </div>
+              <a class="card-link" href="/">View more</a>
+            </li>
+            <li class="drywall card firstbox">
+              <svg style="--svg-width: 62px; --svg-height: 70px;">
+                <use href="./images/icons.svg#icon-paint"></use>
+              </svg>
+              <h2>Drywall & painting</h2>
+              <div class="wrapper_p">
+                <p>Install Drywall</p>
+                <p>Patch and Paint Drywall</p>
+                <p>Paint a Wall / Trim</p>
+                <p>Paint or Stain A Fence</p>
+                <p>Paint a Cabinet Door</p>
+              </div>
+              <a class="card-link" href="/">View more</a>
+            </li>
+            <li class="furniture card firstbox">
+              <svg style="--svg-width: 84px; --svg-height: 70px;">
+                <use
+                  href="./images/icons.svg#icon-frame"></use>
+              </svg>
+              <h2>Furniture assembly</h2>
+              <div class="wrapper_p">
+                <p>Assemble Fitness Equipment</p>
+                <p>Assemble - Custom Request</p>
+                <p>Assemble a TV Stand</p>
+                <p>Assemble Pet Furniture</p>
+                <p>Assemble a Bar Cabinet</p>
+              </div>
+              <a class="card-link" href="/">View more</a>
+            </li>
+            <li class="electrical card secondbox">
+              <svg style="--svg-width: 76px; --svg-height: 70px;">
+                <use
+                  href="./images/icons.svg#icon-electrical"></use>
+              </svg>
+              <h2>Electrical</h2>
+              <div class="wrapper_p">
+                <p>Install / Replace a Ceiling Fan</p>
+                <p>Replace Switch & Outlet Faceplate</p>
+                <p>Upgrade to a Video Doorbell</p>
+                <p>Install / Replace an Bathroom Exhaust Fan</p>
+              </div>
+              <a class="card-link" href="/">View more</a>
+            </li>
+            <li class="doors card secondbox">
+              <svg style="--svg-width: 75px; --svg-height: 70px;">
+                <use
+                  href="./images/icons.svg#icon-door"></use>
+              </svg>
+              <h2>Doors & windows</h2>
+              <div class="wrapper_p">
+                <p>Install / Replace New Door</p>
+                <p>Install / Replace a Screen Door</p>
+                <p>Install / Replace a Window Screen</p>
+                <p>Repair a Door Frame</p>
+              </div>
+              <a class="card-link" href="/">View more</a>
+            </li>
+            <li class="hanging card secondbox">
+              <svg style="--svg-width: 84px; --svg-height: 70px;">
+                <use
+                  href="./images/icons.svg#icon-picture"></use>
+              </svg>
+              <h2>Hanging & mounting</h2>
+              <div class="wrapper_p">
+                <p>Mount a TV</p>
+                <p>Remove a TV Mount from Wall</p>
+                <p>Mount and Hang a Projector Screen</p>
+                <p>Hang a Bathroom Fixture</p>
+              </div>
+              <a class="card-link" href="/">View more</a>
+            </li>
+            <li class="appliance card thirdbox">
+              <svg style="--svg-width: 67px; --svg-height: 70px;">
+                <use
+                  href="./images/icons.svg#icon-instalation"></use>
+              </svg>
+              <h2>Appliance installation</h2>
+              <div class="wrapper_p">
+                <p>Replace an Existing Dishwasher</p>
+                <p>Replace an Existing Microwave</p>
+                <p>Replace an Existing Oven</p>
+              </div>
+              <a class="card-link" href="/">View more</a>
+            </li>
+            <li class="smart card thirdbox">
+              <svg style="--svg-width: 79px; --svg-height: 70px;">
+                <use
+                  href="./images/icons.svg#icon-home"></use>
+              </svg>
+              <h2>Smart home</h2>
+              <div class="wrapper_p">
+                <p>Install a Smart Lock</p>
+                <p>Install a Smart Home Security Camera</p>
+                <p>Mount a Baby Monitor Camera on the Wall</p>
+                <p>Install an Under Sink Water Filtration System</p>
+              </div>
+              <a class="card-link" href="/">View more</a>
+            </li>
+            <li class="outdoor card thirdbox">
+              <svg style="--svg-width: 67px; --svg-height: 70px;">
+                <use
+                  href="./images/icons.svg#icon-tap-1"></use>
+              </svg>
+              <h2>Outdoor</h2>
+              <div class="wrapper_p">
+                <p>Assemble an Outdoor Trampoline</p>
+                <p>Hang a Garage Shelving Unit</p>
+                <p>Install Outdoor Decorative Exterior Window Shutters</p>
+                <p>Install a Storm Door</p>
+              </div>
+              <a class="card-link" href="/">View more</a>
+            </li>
+          </ul>
+        </section>
+      </div>
     </main>
   </body>
 </html>
